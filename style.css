@@ -7,6 +7,18 @@ body {
     overflow-x: hidden;
     animation: fadeIn 1.5s ease-in;
   }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   
   h1 {
     color: #ff6f91;
